@@ -556,12 +556,12 @@
   display.digitHeight     = 17.5;
   display.digitWidth      = 9.5;
   display.digitDistance   = 2.5;
-  display.segmentWidth    = 1.6;
+  display.segmentWidth    = 1.8;
   display.segmentDistance = 0.4;
   display.segmentCount    = 7;
   display.cornerType      = 3;
   display.colorOn         = "#2babde";
-  display.colorOff        = "#000205";
+  display.colorOff        = "#000000";
   display.draw();
 
   window.setInterval('animate()', 1000);
@@ -589,9 +589,13 @@
 <style type="text/css">
 	body{
 		text-align: center;
-		padding: 10px;
+		padding-top: 0px;
+		padding-bottom: 40px;
+		padding-left: 10px;
+		padding-right: 10px;
 		background: #000000;
 		overflow: hidden;
+		margin: auto;
 	}
 	#display {
         width:100%;
